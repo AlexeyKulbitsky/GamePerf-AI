@@ -1,0 +1,19 @@
+{
+  "id": "serialization-stall",
+  "title": "Serialization / save stall",
+  "engines": ["any", "unity", "godot"],
+  "symptoms": [
+    "serializer.write blocks during gameplay",
+    "save game or state serialization runs on the main thread",
+    "hitch at a checkpoint or autosave",
+    "write or deserialize work stalls the frame"
+  ],
+  "mechanism": "Game state is serialized (saved) or deserialized synchronously on the main thread, so the write and any disk flush block gameplay for a frame.",
+  "diagnosis_hints": "Check whether the spike coincides with a save / checkpoint event and whether the work could run off-thread.",
+  "typical_fixes": [
+    "serialize on a background thread and write asynchronously",
+    "split large saves into chunks across frames",
+    "snapshot state cheaply, then serialize the snapshot off the hot path"
+  ],
+  "sources": ["Unity Manual — Serialization", "Godot Engine documentation — Saving games"]
+}

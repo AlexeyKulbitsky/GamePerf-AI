@@ -1,0 +1,19 @@
+{
+  "id": "scene-tree-traversal",
+  "title": "Scene-tree traversal cost",
+  "engines": ["godot", "any"],
+  "symptoms": [
+    "scenetree.propagate walks a deep or wide node tree each frame",
+    "scene tree traversal / propagate dominates the frame",
+    "per-node update cost grows with node count",
+    "hitch as the scene tree gets large"
+  ],
+  "mechanism": "A per-frame traversal of the scene tree (propagation of notifications, transforms or updates) visits a very large or deep node graph, so the traversal itself becomes the bottleneck.",
+  "diagnosis_hints": "Check node count and tree depth; see whether disabling processing on idle subtrees removes the spike.",
+  "typical_fixes": [
+    "disable processing on inactive nodes / subtrees",
+    "flatten or prune the scene tree, cache transforms",
+    "move per-node work to a data-oriented batch where possible"
+  ],
+  "sources": ["Godot Engine documentation — SceneTree", "Godot Engine documentation — Optimization"]
+}

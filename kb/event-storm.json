@@ -1,0 +1,19 @@
+{
+  "id": "event-storm",
+  "title": "Signal / event storm",
+  "engines": ["godot", "any"],
+  "symptoms": [
+    "signalbus.emit fires a flood of callbacks in one frame",
+    "signal or event emit cascades into many handlers",
+    "broadcast triggers a chain of listeners synchronously",
+    "hitch from a burst of events processed in a single frame"
+  ],
+  "mechanism": "A signal or event is emitted that fans out to many subscribers (or cascades into further events), and all the handler work is processed synchronously within one frame.",
+  "diagnosis_hints": "Check how many handlers run for the emitting signal in the hitch frame; look for an event that triggers a chain reaction.",
+  "typical_fixes": [
+    "batch or debounce high-frequency events",
+    "queue events and process a bounded number per frame",
+    "reduce the number of subscribers or make handlers cheaper"
+  ],
+  "sources": ["Godot Engine documentation — Signals", "Game Programming Patterns (Nystrom) — Event Queue"]
+}

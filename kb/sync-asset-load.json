@@ -1,0 +1,19 @@
+{
+  "id": "sync-asset-load",
+  "title": "Synchronous asset load on the main thread",
+  "engines": ["godot", "unreal", "unity", "any"],
+  "symptoms": [
+    "resourceloader.load blocks inside a gameplay frame",
+    "synchronous load of a scene, texture or mesh stalls the main thread",
+    "hitch on first use of an asset that was not preloaded",
+    "blocking disk or decode work during play"
+  ],
+  "mechanism": "An asset is loaded synchronously on the main thread (resourceloader.load or equivalent), so disk I/O and decoding block gameplay until the asset is ready.",
+  "diagnosis_hints": "Check whether the spike is a loader call and whether it coincides with the first reference to an asset; see if the asset could have been preloaded or streamed.",
+  "typical_fixes": [
+    "preload or warm up assets during a loading screen",
+    "load asynchronously in the background and swap in when ready",
+    "stream large assets instead of loading them whole"
+  ],
+  "sources": ["Godot Engine documentation — Background loading", "Unreal Engine documentation — Asynchronous Asset Loading"]
+}

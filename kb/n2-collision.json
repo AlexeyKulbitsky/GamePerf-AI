@@ -1,0 +1,19 @@
+{
+  "id": "n2-collision",
+  "title": "Quadratic collision / broad-phase blow-up",
+  "engines": ["any", "godot", "unreal"],
+  "symptoms": [
+    "collision.broadphase cost grows faster than the object count",
+    "broadphase or narrow-phase pair checks explode",
+    "n^2 pair testing when many objects cluster together",
+    "hitch scales with the square of active colliders"
+  ],
+  "mechanism": "Collision detection degenerates toward O(n^2) pair tests, often when many colliders overlap a region or no spatial partition is used, so broad-phase cost spikes.",
+  "diagnosis_hints": "Check whether the collider count grew modestly but collision cost grew much more; look for clustering of objects in one area.",
+  "typical_fixes": [
+    "use a spatial partition / grid / BVH for the broad phase",
+    "set collision layers and masks to cut irrelevant pairs",
+    "reduce overlapping colliders or simplify shapes"
+  ],
+  "sources": ["Godot Engine documentation — Physics introduction", "Real-Time Collision Detection (Ericson)"]
+}

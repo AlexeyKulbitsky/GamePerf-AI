@@ -1,0 +1,19 @@
+{
+  "id": "spawn-burst",
+  "title": "Entity spawn burst",
+  "engines": ["godot", "unreal", "unity", "any"],
+  "symptoms": [
+    "spawner.spawn_wave instantiates many entities in one frame",
+    "spawn wave or instantiate burst stalls the frame",
+    "hitch when a wave, salvo or particle burst is created at once",
+    "instantiation cost concentrated in a single frame"
+  ],
+  "mechanism": "A large number of entities are instantiated in a single frame (a spawn wave), and the construction, allocation and scene insertion all land in one frame.",
+  "diagnosis_hints": "Check whether the spike coincides with a gameplay event that creates many objects; count the instances created in the hitch frame.",
+  "typical_fixes": [
+    "pool and reuse instances instead of creating them on the fly",
+    "stagger spawns across several frames",
+    "build expensive sub-objects lazily or ahead of time"
+  ],
+  "sources": ["Unity Manual — Object Pooling", "Godot Engine documentation — Optimization"]
+}

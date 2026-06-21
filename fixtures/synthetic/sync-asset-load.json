@@ -1,0 +1,8022 @@
+{
+  "traceEvents": [
+    {
+      "name": "thread_name",
+      "ph": "M",
+      "pid": 1,
+      "tid": 1,
+      "args": {
+        "name": "MainThread"
+      }
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 1000000,
+      "dur": 3094,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 1003094,
+      "dur": 4376,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 1007470,
+      "dur": 7411,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 1008582,
+      "dur": 5187,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 1000000,
+      "dur": 14881,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 1014881,
+      "dur": 3130,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 1018011,
+      "dur": 3641,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 1021652,
+      "dur": 6765,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 1022667,
+      "dur": 4735,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 1014881,
+      "dur": 13536,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 1028417,
+      "dur": 3223,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 1031640,
+      "dur": 4097,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 1035737,
+      "dur": 6914,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 1036774,
+      "dur": 4839,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 1028417,
+      "dur": 14234,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 1042651,
+      "dur": 3010,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 1045661,
+      "dur": 4088,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 1049749,
+      "dur": 6866,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 1050779,
+      "dur": 4806,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 1042651,
+      "dur": 13964,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 1056615,
+      "dur": 3297,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 1059912,
+      "dur": 3823,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 1063735,
+      "dur": 7016,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 1064787,
+      "dur": 4911,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 1056615,
+      "dur": 14136,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 1070751,
+      "dur": 2842,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 1073593,
+      "dur": 3888,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 1077481,
+      "dur": 6643,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 1078477,
+      "dur": 4650,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 1070751,
+      "dur": 13373,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 1084124,
+      "dur": 2797,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 1086921,
+      "dur": 4233,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 1091154,
+      "dur": 7318,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 1092252,
+      "dur": 5122,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 1084124,
+      "dur": 14348,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 1098472,
+      "dur": 2956,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 1101428,
+      "dur": 4145,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 1105573,
+      "dur": 7222,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 1106656,
+      "dur": 5055,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 1098472,
+      "dur": 14323,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 1112795,
+      "dur": 2850,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 1115645,
+      "dur": 3917,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 1119562,
+      "dur": 6601,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 1120552,
+      "dur": 4620,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 1112795,
+      "dur": 13368,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 1126163,
+      "dur": 2775,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 1128938,
+      "dur": 4300,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 1133238,
+      "dur": 6838,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 1134264,
+      "dur": 4786,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 1126163,
+      "dur": 13913,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 1140076,
+      "dur": 3183,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 1143259,
+      "dur": 4173,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 1147432,
+      "dur": 6603,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 1148422,
+      "dur": 4622,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 1140076,
+      "dur": 13959,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 1154035,
+      "dur": 3062,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 1157097,
+      "dur": 4044,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 1161141,
+      "dur": 6823,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 1162164,
+      "dur": 4776,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 1154035,
+      "dur": 13929,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 1167964,
+      "dur": 2909,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 1170873,
+      "dur": 4165,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 1175038,
+      "dur": 6988,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 1176086,
+      "dur": 4891,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 1167964,
+      "dur": 14062,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 1182026,
+      "dur": 3153,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 1185179,
+      "dur": 4133,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 1189312,
+      "dur": 6766,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 1190327,
+      "dur": 4736,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 1182026,
+      "dur": 14052,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 1196078,
+      "dur": 2763,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 1198841,
+      "dur": 4161,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 1203002,
+      "dur": 7437,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 1204118,
+      "dur": 5205,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 1196078,
+      "dur": 14361,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 1210439,
+      "dur": 2714,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 1213153,
+      "dur": 3695,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 1216848,
+      "dur": 7236,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 1217933,
+      "dur": 5065,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 1210439,
+      "dur": 13645,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 1224084,
+      "dur": 3108,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 1227192,
+      "dur": 4327,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 1231519,
+      "dur": 7344,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 1232621,
+      "dur": 5140,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 1224084,
+      "dur": 14779,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 1238863,
+      "dur": 2701,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 1241564,
+      "dur": 4226,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 1245790,
+      "dur": 7005,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 1246841,
+      "dur": 4903,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 1238863,
+      "dur": 13932,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 1252795,
+      "dur": 3041,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 1255836,
+      "dur": 3849,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 1259685,
+      "dur": 7247,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 1260772,
+      "dur": 5072,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 1252795,
+      "dur": 14137,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 1266932,
+      "dur": 3033,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 1269965,
+      "dur": 4320,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 1274285,
+      "dur": 7391,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 1275394,
+      "dur": 5173,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 1266932,
+      "dur": 14744,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 1281676,
+      "dur": 2764,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 1284440,
+      "dur": 3795,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 1288235,
+      "dur": 7439,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 1289351,
+      "dur": 5207,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 1281676,
+      "dur": 13998,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 1295674,
+      "dur": 3281,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 1298955,
+      "dur": 3827,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 1302782,
+      "dur": 6744,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 1303794,
+      "dur": 4720,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 1295674,
+      "dur": 13852,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 1309526,
+      "dur": 2845,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 1312371,
+      "dur": 4156,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 1316527,
+      "dur": 6958,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 1317571,
+      "dur": 4870,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 1309526,
+      "dur": 13959,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 1323485,
+      "dur": 2793,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 1326278,
+      "dur": 3682,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 1329960,
+      "dur": 6827,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 1330984,
+      "dur": 4778,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 1323485,
+      "dur": 13302,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 1336787,
+      "dur": 3220,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 1340007,
+      "dur": 4101,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 1344108,
+      "dur": 6611,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 1345100,
+      "dur": 4627,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 1336787,
+      "dur": 13932,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 1350719,
+      "dur": 3008,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 1353727,
+      "dur": 4164,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 1357891,
+      "dur": 6798,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 1358911,
+      "dur": 4758,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 1350719,
+      "dur": 13970,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 1364689,
+      "dur": 2827,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 1367516,
+      "dur": 4160,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 1371676,
+      "dur": 6840,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 1372702,
+      "dur": 4788,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 1364689,
+      "dur": 13827,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 1378516,
+      "dur": 3253,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 1381769,
+      "dur": 3808,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 1385577,
+      "dur": 7486,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 1386700,
+      "dur": 5240,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 1378516,
+      "dur": 14547,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 1393063,
+      "dur": 3260,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 1396323,
+      "dur": 4201,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 1400524,
+      "dur": 6794,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 1401543,
+      "dur": 4755,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 1393063,
+      "dur": 14255,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 1407318,
+      "dur": 3155,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 1410473,
+      "dur": 3693,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 1414166,
+      "dur": 7110,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 1415232,
+      "dur": 4977,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 1407318,
+      "dur": 13958,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 1421276,
+      "dur": 3094,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 1424370,
+      "dur": 3924,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 1428294,
+      "dur": 7089,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 1429357,
+      "dur": 4962,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 1421276,
+      "dur": 14107,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 1435383,
+      "dur": 2947,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 1438330,
+      "dur": 3897,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 1442227,
+      "dur": 6688,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 1443230,
+      "dur": 4681,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 1435383,
+      "dur": 13532,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 1448915,
+      "dur": 2893,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 1451808,
+      "dur": 3791,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 1455599,
+      "dur": 6533,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 1456579,
+      "dur": 4573,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 1448915,
+      "dur": 13217,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 1462132,
+      "dur": 2966,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 1465098,
+      "dur": 4087,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 1469185,
+      "dur": 6570,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 1470170,
+      "dur": 4599,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 1462132,
+      "dur": 13623,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 1475755,
+      "dur": 2791,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 1478546,
+      "dur": 4295,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 1482841,
+      "dur": 7275,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 1483932,
+      "dur": 5092,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 1475755,
+      "dur": 14361,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 1490116,
+      "dur": 2833,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 1492949,
+      "dur": 3753,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 1496702,
+      "dur": 7445,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 1497819,
+      "dur": 5211,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 1490116,
+      "dur": 14031,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 1504147,
+      "dur": 2739,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 1506886,
+      "dur": 3682,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 1510568,
+      "dur": 7419,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 1511681,
+      "dur": 5193,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 1504147,
+      "dur": 13840,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 1517987,
+      "dur": 3253,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 1521240,
+      "dur": 4299,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 1525539,
+      "dur": 6900,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 1526574,
+      "dur": 4830,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 1517987,
+      "dur": 14452,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 1532439,
+      "dur": 3237,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 1535676,
+      "dur": 3882,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 1539558,
+      "dur": 7034,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 1540613,
+      "dur": 4923,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 1532439,
+      "dur": 14153,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 1546592,
+      "dur": 2941,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 1549533,
+      "dur": 3820,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 1553353,
+      "dur": 7416,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 1554465,
+      "dur": 5191,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 1546592,
+      "dur": 14177,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 1560769,
+      "dur": 3129,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 1563898,
+      "dur": 4193,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 1568091,
+      "dur": 6781,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 1569108,
+      "dur": 4746,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 1560769,
+      "dur": 14103,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 1574872,
+      "dur": 3161,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 1578033,
+      "dur": 4104,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 1582137,
+      "dur": 7176,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 1583213,
+      "dur": 5023,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 1574872,
+      "dur": 14441,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 1589313,
+      "dur": 3065,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 1592378,
+      "dur": 3684,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 1596062,
+      "dur": 6832,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 1597087,
+      "dur": 4782,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 1589313,
+      "dur": 13581,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 1602894,
+      "dur": 2818,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 1605712,
+      "dur": 4098,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 1609810,
+      "dur": 7101,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 1610875,
+      "dur": 4970,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 1602894,
+      "dur": 14017,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 1616911,
+      "dur": 3043,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 1619954,
+      "dur": 3794,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 1623748,
+      "dur": 6748,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 1624760,
+      "dur": 4723,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 1616911,
+      "dur": 13585,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 1630496,
+      "dur": 2716,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 1633212,
+      "dur": 4349,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 1637561,
+      "dur": 6777,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 1638578,
+      "dur": 4743,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 1630496,
+      "dur": 13842,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 1644338,
+      "dur": 2819,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 1647157,
+      "dur": 4322,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 1651479,
+      "dur": 6725,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 1652488,
+      "dur": 4707,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 1644338,
+      "dur": 13866,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 1658204,
+      "dur": 3080,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 1661284,
+      "dur": 3774,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 1665058,
+      "dur": 6840,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 1666084,
+      "dur": 4788,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 1658204,
+      "dur": 13694,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 1671898,
+      "dur": 3136,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 1675034,
+      "dur": 3663,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 1678697,
+      "dur": 6603,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 1679687,
+      "dur": 4622,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 1671898,
+      "dur": 13402,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 1685300,
+      "dur": 2849,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 1688149,
+      "dur": 4314,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 1692463,
+      "dur": 6724,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 1693472,
+      "dur": 4706,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 1685300,
+      "dur": 13887,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 1699187,
+      "dur": 2746,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 1701933,
+      "dur": 4187,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 1706120,
+      "dur": 7149,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 1707192,
+      "dur": 5004,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 1699187,
+      "dur": 14082,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 1713269,
+      "dur": 3247,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 1716516,
+      "dur": 4216,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 1720732,
+      "dur": 7196,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 1721811,
+      "dur": 5037,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 1713269,
+      "dur": 14659,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 1727928,
+      "dur": 2775,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 1730703,
+      "dur": 3627,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 1734330,
+      "dur": 6627,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 1735324,
+      "dur": 4638,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 1727928,
+      "dur": 13029,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 1740957,
+      "dur": 2893,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 1743850,
+      "dur": 4220,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 1748070,
+      "dur": 7350,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 1749172,
+      "dur": 5145,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 1740957,
+      "dur": 14463,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 1755420,
+      "dur": 3289,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 1758709,
+      "dur": 3722,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 1762431,
+      "dur": 6900,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 1763466,
+      "dur": 4830,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 1755420,
+      "dur": 13911,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 1769331,
+      "dur": 2793,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 1772124,
+      "dur": 3979,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 1776103,
+      "dur": 7353,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 1777206,
+      "dur": 5147,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 1769331,
+      "dur": 14125,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 1783456,
+      "dur": 2818,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 1786274,
+      "dur": 3637,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 1789911,
+      "dur": 7120,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 1790979,
+      "dur": 4984,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 1783456,
+      "dur": 13575,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 1797031,
+      "dur": 2722,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 1799753,
+      "dur": 3799,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 1803552,
+      "dur": 7484,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 1804675,
+      "dur": 5238,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 1797031,
+      "dur": 14005,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 1811036,
+      "dur": 2889,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 1813925,
+      "dur": 4335,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 1818260,
+      "dur": 6626,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 1819254,
+      "dur": 4638,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 1811036,
+      "dur": 13850,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 1824886,
+      "dur": 3190,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 1828076,
+      "dur": 3815,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 1831891,
+      "dur": 7244,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 1832978,
+      "dur": 5070,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 1824886,
+      "dur": 14249,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 1839135,
+      "dur": 2762,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 1841897,
+      "dur": 4295,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 1846192,
+      "dur": 6523,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 1847170,
+      "dur": 4566,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 1839135,
+      "dur": 13580,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 1852715,
+      "dur": 3257,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 1855972,
+      "dur": 4035,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 1860007,
+      "dur": 7135,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 1861077,
+      "dur": 4994,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 1852715,
+      "dur": 14427,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 1867142,
+      "dur": 2803,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 1869945,
+      "dur": 3866,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 1873811,
+      "dur": 6571,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 1874797,
+      "dur": 4599,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 1867142,
+      "dur": 13240,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 1880382,
+      "dur": 2926,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 1883308,
+      "dur": 3673,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 1886981,
+      "dur": 7162,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 1888055,
+      "dur": 5013,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 1880382,
+      "dur": 13761,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 1894143,
+      "dur": 3008,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 1897151,
+      "dur": 3958,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 1901109,
+      "dur": 6946,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 1902151,
+      "dur": 4862,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 1894143,
+      "dur": 13912,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 1908055,
+      "dur": 2884,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 1910939,
+      "dur": 3662,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 1914601,
+      "dur": 7015,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 1915653,
+      "dur": 4910,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 1908055,
+      "dur": 13561,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 1921616,
+      "dur": 3178,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 1924794,
+      "dur": 3640,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 1928434,
+      "dur": 7110,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 1929500,
+      "dur": 4977,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 1921616,
+      "dur": 13928,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 1935544,
+      "dur": 2803,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 1938347,
+      "dur": 4316,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 1942663,
+      "dur": 6900,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 1943698,
+      "dur": 4830,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 1935544,
+      "dur": 14019,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 1949563,
+      "dur": 2904,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 1952467,
+      "dur": 3866,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 1956333,
+      "dur": 6867,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 1957363,
+      "dur": 4806,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 1949563,
+      "dur": 13637,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 1963200,
+      "dur": 3181,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 1966381,
+      "dur": 4183,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 1970564,
+      "dur": 6673,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 1971565,
+      "dur": 4671,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 1963200,
+      "dur": 14037,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 1977237,
+      "dur": 2908,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 1980145,
+      "dur": 4385,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 1984530,
+      "dur": 6559,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 1985514,
+      "dur": 4591,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 1977237,
+      "dur": 13852,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 1991089,
+      "dur": 2862,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 1993951,
+      "dur": 3765,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 1997716,
+      "dur": 6850,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 1998743,
+      "dur": 4795,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 1991089,
+      "dur": 13477,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 2004566,
+      "dur": 3242,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 2007808,
+      "dur": 3856,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 2011664,
+      "dur": 6620,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 2012657,
+      "dur": 4634,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 2004566,
+      "dur": 13718,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 2018284,
+      "dur": 3152,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 2021436,
+      "dur": 4281,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 2025717,
+      "dur": 6679,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 2026719,
+      "dur": 4675,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 2018284,
+      "dur": 14112,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 2032396,
+      "dur": 2713,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 2035109,
+      "dur": 4082,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 2039191,
+      "dur": 7197,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 2040271,
+      "dur": 5037,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 2032396,
+      "dur": 13992,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 2046388,
+      "dur": 3119,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 2049507,
+      "dur": 4182,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 2053689,
+      "dur": 7395,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 2054798,
+      "dur": 5176,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 2046388,
+      "dur": 14696,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 2061084,
+      "dur": 3220,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 2064304,
+      "dur": 3918,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 2068222,
+      "dur": 7164,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 2069297,
+      "dur": 5014,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 2061084,
+      "dur": 14302,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 2075386,
+      "dur": 3065,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 2078451,
+      "dur": 3997,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 2082448,
+      "dur": 7357,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 2083552,
+      "dur": 5149,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 2075386,
+      "dur": 14419,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 2089805,
+      "dur": 2956,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 2092761,
+      "dur": 3757,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 2096518,
+      "dur": 7074,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 2097579,
+      "dur": 4951,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 2089805,
+      "dur": 13787,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 2103592,
+      "dur": 2712,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 2106304,
+      "dur": 4068,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 2110372,
+      "dur": 7259,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 2111461,
+      "dur": 5081,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 2103592,
+      "dur": 14039,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 2117631,
+      "dur": 2780,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 2120411,
+      "dur": 3943,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 2124354,
+      "dur": 7256,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 2125442,
+      "dur": 5079,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 2117631,
+      "dur": 13979,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 2131610,
+      "dur": 2746,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 2134356,
+      "dur": 4157,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 2138513,
+      "dur": 6787,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 2139531,
+      "dur": 4750,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 2131610,
+      "dur": 13690,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 2145300,
+      "dur": 2838,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 2148138,
+      "dur": 3845,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 2151983,
+      "dur": 7280,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 2153075,
+      "dur": 5096,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 2145300,
+      "dur": 13963,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 2159263,
+      "dur": 3193,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 2162456,
+      "dur": 3960,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 2166416,
+      "dur": 7124,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 2167485,
+      "dur": 4986,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 2159263,
+      "dur": 14277,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 2173540,
+      "dur": 2994,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 2176534,
+      "dur": 4289,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 2180823,
+      "dur": 6867,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 2181853,
+      "dur": 4806,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 2173540,
+      "dur": 14150,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 2187690,
+      "dur": 2835,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 2190525,
+      "dur": 4332,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 2194857,
+      "dur": 6817,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 2195880,
+      "dur": 4771,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 2187690,
+      "dur": 13984,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 2201674,
+      "dur": 3097,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 2204771,
+      "dur": 4366,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 2209137,
+      "dur": 6924,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 2210176,
+      "dur": 4846,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 2201674,
+      "dur": 14387,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 2216061,
+      "dur": 2782,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 2218843,
+      "dur": 3601,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 2222444,
+      "dur": 7108,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 2223510,
+      "dur": 4975,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 2216061,
+      "dur": 13491,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 2229552,
+      "dur": 2896,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 2232448,
+      "dur": 4315,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 2236763,
+      "dur": 6842,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 2237789,
+      "dur": 4789,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 2229552,
+      "dur": 14053,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 2243605,
+      "dur": 2863,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 2246468,
+      "dur": 3845,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 2250313,
+      "dur": 6728,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 2251322,
+      "dur": 4709,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 2243605,
+      "dur": 13436,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 2257041,
+      "dur": 3158,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 2260199,
+      "dur": 3987,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 2264186,
+      "dur": 7227,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 2265270,
+      "dur": 5058,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 2257041,
+      "dur": 14372,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 2271413,
+      "dur": 3281,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 2274694,
+      "dur": 4024,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 2278718,
+      "dur": 6532,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 2279698,
+      "dur": 4572,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 2271413,
+      "dur": 13837,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 2285250,
+      "dur": 3111,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 2288361,
+      "dur": 4318,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 2292679,
+      "dur": 7081,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 2293741,
+      "dur": 4956,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 2285250,
+      "dur": 14510,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 2299760,
+      "dur": 3128,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 2302888,
+      "dur": 4390,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 2307278,
+      "dur": 7178,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 2308355,
+      "dur": 5024,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 2299760,
+      "dur": 14696,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 2314456,
+      "dur": 2747,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 2317203,
+      "dur": 3769,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 2320972,
+      "dur": 6956,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 2322015,
+      "dur": 4869,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 2314456,
+      "dur": 13472,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 2327928,
+      "dur": 2765,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 2330693,
+      "dur": 3865,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 2334558,
+      "dur": 7218,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 2335641,
+      "dur": 5052,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 2327928,
+      "dur": 13848,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 2341776,
+      "dur": 2861,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 2344637,
+      "dur": 4057,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 2348694,
+      "dur": 7040,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 2349750,
+      "dur": 4928,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 2341776,
+      "dur": 13958,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 2355734,
+      "dur": 3198,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 2358932,
+      "dur": 4174,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 2363106,
+      "dur": 7118,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 2364174,
+      "dur": 4982,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 2355734,
+      "dur": 14490,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 2370224,
+      "dur": 2700,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 2372924,
+      "dur": 3639,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 2376563,
+      "dur": 7006,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 2377614,
+      "dur": 4904,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 2370224,
+      "dur": 13345,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 2383569,
+      "dur": 3033,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 2386602,
+      "dur": 3919,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 2390521,
+      "dur": 7357,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 2391625,
+      "dur": 5149,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 2383569,
+      "dur": 14309,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 2397878,
+      "dur": 3178,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 2401056,
+      "dur": 3651,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 2404707,
+      "dur": 7328,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 2405806,
+      "dur": 5129,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 2397878,
+      "dur": 14157,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 2412035,
+      "dur": 3125,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 2415160,
+      "dur": 3792,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 2418952,
+      "dur": 7061,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 2420011,
+      "dur": 4942,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 2412035,
+      "dur": 13978,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 2426013,
+      "dur": 2785,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 2428798,
+      "dur": 4342,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 2433140,
+      "dur": 6633,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 2434135,
+      "dur": 4643,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 2426013,
+      "dur": 13760,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 2439773,
+      "dur": 2715,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 2442488,
+      "dur": 4011,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 2446499,
+      "dur": 7472,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 2447620,
+      "dur": 5230,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 2439773,
+      "dur": 14198,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 2453971,
+      "dur": 3127,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 2457098,
+      "dur": 3923,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 2461021,
+      "dur": 6503,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 2461996,
+      "dur": 4552,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 2453971,
+      "dur": 13553,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 2467524,
+      "dur": 2918,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 2470442,
+      "dur": 3614,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 2474056,
+      "dur": 7234,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 2475141,
+      "dur": 5063,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 2467524,
+      "dur": 13766,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 2481290,
+      "dur": 2702,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 2483992,
+      "dur": 4291,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 2488283,
+      "dur": 7041,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 2489339,
+      "dur": 4928,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 2481290,
+      "dur": 14034,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 2495324,
+      "dur": 2800,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 2498124,
+      "dur": 3795,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 2501919,
+      "dur": 6621,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 2502912,
+      "dur": 4634,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 2495324,
+      "dur": 13216,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 2508540,
+      "dur": 2903,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 2511443,
+      "dur": 3909,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 2515352,
+      "dur": 6786,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 2516370,
+      "dur": 4750,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 2508540,
+      "dur": 13598,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 2522138,
+      "dur": 2886,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 2525024,
+      "dur": 3702,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 2528726,
+      "dur": 6987,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 2529774,
+      "dur": 4890,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 2522138,
+      "dur": 13575,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 2535713,
+      "dur": 3106,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 2538819,
+      "dur": 4242,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 2543061,
+      "dur": 6583,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 2544048,
+      "dur": 4608,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 2535713,
+      "dur": 13931,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 2549644,
+      "dur": 2722,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 2552366,
+      "dur": 3881,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 2556247,
+      "dur": 7435,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 2557362,
+      "dur": 5204,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 2549644,
+      "dur": 14038,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 2563682,
+      "dur": 3163,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 2566845,
+      "dur": 3718,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 2570563,
+      "dur": 7382,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 2571670,
+      "dur": 5167,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 2563682,
+      "dur": 14263,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 2577945,
+      "dur": 2962,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 2580907,
+      "dur": 3736,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 2584643,
+      "dur": 7169,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 2585718,
+      "dur": 5018,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 2577945,
+      "dur": 13867,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 2591812,
+      "dur": 3233,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 2595045,
+      "dur": 4266,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 2599311,
+      "dur": 7160,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 2600385,
+      "dur": 5012,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 2591812,
+      "dur": 14659,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 2606471,
+      "dur": 3055,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 2609526,
+      "dur": 3717,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 2613243,
+      "dur": 7392,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 2614352,
+      "dur": 5174,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 2606471,
+      "dur": 14164,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 2620635,
+      "dur": 2858,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 2623493,
+      "dur": 3885,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 2627378,
+      "dur": 7371,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 2628484,
+      "dur": 5159,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 2620635,
+      "dur": 14114,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 2634749,
+      "dur": 2719,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 2637468,
+      "dur": 3643,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 2641111,
+      "dur": 6541,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 2642092,
+      "dur": 4578,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 2634749,
+      "dur": 12903,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 2647652,
+      "dur": 2910,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 2650562,
+      "dur": 4297,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 2654859,
+      "dur": 6765,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 2655874,
+      "dur": 4735,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 2647652,
+      "dur": 13972,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 2661624,
+      "dur": 3271,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 2664895,
+      "dur": 3922,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 2668817,
+      "dur": 7469,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 2669937,
+      "dur": 5228,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 2661624,
+      "dur": 14662,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 2676286,
+      "dur": 3075,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 2679361,
+      "dur": 4181,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 2683542,
+      "dur": 7431,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 2684657,
+      "dur": 5201,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "ResourceLoader.load",
+      "ph": "X",
+      "ts": 2690973,
+      "dur": 30000,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 2676286,
+      "dur": 44687,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 2720973,
+      "dur": 2743,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 2723716,
+      "dur": 4367,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 2728083,
+      "dur": 7484,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 2729206,
+      "dur": 5238,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 2720973,
+      "dur": 14594,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 2735567,
+      "dur": 3206,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 2738773,
+      "dur": 4329,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 2743102,
+      "dur": 7159,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 2744176,
+      "dur": 5011,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 2735567,
+      "dur": 14694,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 2750261,
+      "dur": 3169,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 2753430,
+      "dur": 4255,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 2757685,
+      "dur": 6945,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 2758727,
+      "dur": 4861,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 2750261,
+      "dur": 14369,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 2764630,
+      "dur": 3081,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 2767711,
+      "dur": 4150,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 2771861,
+      "dur": 6682,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 2772863,
+      "dur": 4677,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 2764630,
+      "dur": 13913,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 2778543,
+      "dur": 2912,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 2781455,
+      "dur": 3984,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 2785439,
+      "dur": 7101,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 2786504,
+      "dur": 4970,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 2778543,
+      "dur": 13997,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 2792540,
+      "dur": 2998,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 2795538,
+      "dur": 3609,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 2799147,
+      "dur": 6641,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 2800143,
+      "dur": 4648,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 2792540,
+      "dur": 13248,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 2805788,
+      "dur": 2854,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 2808642,
+      "dur": 3877,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 2812519,
+      "dur": 6841,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 2813545,
+      "dur": 4788,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 2805788,
+      "dur": 13572,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 2819360,
+      "dur": 3045,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 2822405,
+      "dur": 3976,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 2826381,
+      "dur": 7235,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 2827466,
+      "dur": 5064,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 2819360,
+      "dur": 14256,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 2833616,
+      "dur": 2795,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 2836411,
+      "dur": 3946,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 2840357,
+      "dur": 7298,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 2841452,
+      "dur": 5108,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 2833616,
+      "dur": 14039,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 2847655,
+      "dur": 2736,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 2850391,
+      "dur": 3642,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 2854033,
+      "dur": 6776,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 2855049,
+      "dur": 4743,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 2847655,
+      "dur": 13154,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 2860809,
+      "dur": 2867,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 2863676,
+      "dur": 3753,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 2867429,
+      "dur": 7097,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 2868494,
+      "dur": 4967,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 2860809,
+      "dur": 13717,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 2874526,
+      "dur": 2996,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 2877522,
+      "dur": 3969,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 2881491,
+      "dur": 6904,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 2882527,
+      "dur": 4832,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 2874526,
+      "dur": 13869,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 2888395,
+      "dur": 3261,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 2891656,
+      "dur": 3732,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 2895388,
+      "dur": 6800,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 2896408,
+      "dur": 4760,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 2888395,
+      "dur": 13793,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 2902188,
+      "dur": 2817,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 2905005,
+      "dur": 4089,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 2909094,
+      "dur": 7248,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 2910181,
+      "dur": 5073,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 2902188,
+      "dur": 14154,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 2916342,
+      "dur": 2945,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 2919287,
+      "dur": 3649,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 2922936,
+      "dur": 6815,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 2923958,
+      "dur": 4770,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 2916342,
+      "dur": 13409,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 2929751,
+      "dur": 2883,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 2932634,
+      "dur": 4135,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 2936769,
+      "dur": 7246,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 2937856,
+      "dur": 5072,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 2929751,
+      "dur": 14264,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 2944015,
+      "dur": 2772,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 2946787,
+      "dur": 3909,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 2950696,
+      "dur": 6912,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 2951733,
+      "dur": 4838,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 2944015,
+      "dur": 13593,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 2957608,
+      "dur": 3036,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 2960644,
+      "dur": 3906,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 2964550,
+      "dur": 6924,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 2965589,
+      "dur": 4846,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 2957608,
+      "dur": 13866,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 2971474,
+      "dur": 2811,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 2974285,
+      "dur": 3701,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 2977986,
+      "dur": 7074,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 2979047,
+      "dur": 4951,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 2971474,
+      "dur": 13586,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 2985060,
+      "dur": 3192,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 2988252,
+      "dur": 4085,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 2992337,
+      "dur": 6845,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 2993364,
+      "dur": 4791,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 2985060,
+      "dur": 14122,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 2999182,
+      "dur": 3051,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 3002233,
+      "dur": 3727,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 3005960,
+      "dur": 6990,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 3007008,
+      "dur": 4893,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 2999182,
+      "dur": 13768,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 3012950,
+      "dur": 2818,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 3015768,
+      "dur": 4316,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 3020084,
+      "dur": 7009,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 3021135,
+      "dur": 4906,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 3012950,
+      "dur": 14143,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 3027093,
+      "dur": 3136,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 3030229,
+      "dur": 3638,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 3033867,
+      "dur": 6809,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 3034888,
+      "dur": 4766,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 3027093,
+      "dur": 13583,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 3040676,
+      "dur": 3043,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 3043719,
+      "dur": 4352,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 3048071,
+      "dur": 7203,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 3049151,
+      "dur": 5042,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 3040676,
+      "dur": 14598,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 3055274,
+      "dur": 2859,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 3058133,
+      "dur": 3770,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 3061903,
+      "dur": 7141,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 3062974,
+      "dur": 4998,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 3055274,
+      "dur": 13770,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 3069044,
+      "dur": 3278,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 3072322,
+      "dur": 3984,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 3076306,
+      "dur": 7325,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 3077405,
+      "dur": 5127,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 3069044,
+      "dur": 14587,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 3083631,
+      "dur": 2789,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 3086420,
+      "dur": 3667,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 3090087,
+      "dur": 7327,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 3091186,
+      "dur": 5128,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 3083631,
+      "dur": 13783,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 3097414,
+      "dur": 2786,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 3100200,
+      "dur": 3802,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 3104002,
+      "dur": 7267,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 3105092,
+      "dur": 5086,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 3097414,
+      "dur": 13855,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 3111269,
+      "dur": 2926,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 3114195,
+      "dur": 3662,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 3117857,
+      "dur": 6894,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 3118891,
+      "dur": 4825,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 3111269,
+      "dur": 13482,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 3124751,
+      "dur": 2708,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 3127459,
+      "dur": 3700,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 3131159,
+      "dur": 6903,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 3132194,
+      "dur": 4832,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 3124751,
+      "dur": 13311,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 3138062,
+      "dur": 3269,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 3141331,
+      "dur": 4131,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 3145462,
+      "dur": 6796,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 3146481,
+      "dur": 4757,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 3138062,
+      "dur": 14196,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 3152258,
+      "dur": 3159,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 3155417,
+      "dur": 4100,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 3159517,
+      "dur": 7307,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 3160613,
+      "dur": 5114,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 3152258,
+      "dur": 14566,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 3166824,
+      "dur": 3298,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 3170122,
+      "dur": 4331,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 3174453,
+      "dur": 7195,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 3175532,
+      "dur": 5036,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 3166824,
+      "dur": 14824,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 3181648,
+      "dur": 2922,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 3184570,
+      "dur": 4033,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 3188603,
+      "dur": 6585,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 3189591,
+      "dur": 4609,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 3181648,
+      "dur": 13540,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 3195188,
+      "dur": 3077,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 3198265,
+      "dur": 3825,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 3202090,
+      "dur": 6767,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 3203105,
+      "dur": 4736,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 3195188,
+      "dur": 13669,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 3208857,
+      "dur": 3299,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 3212156,
+      "dur": 4395,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 3216551,
+      "dur": 6670,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 3217551,
+      "dur": 4669,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 3208857,
+      "dur": 14364,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 3223221,
+      "dur": 3141,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 3226362,
+      "dur": 3796,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 3230158,
+      "dur": 6867,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 3231188,
+      "dur": 4806,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 3223221,
+      "dur": 13804,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 3237025,
+      "dur": 2817,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 3239842,
+      "dur": 3665,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 3243507,
+      "dur": 7341,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 3244608,
+      "dur": 5138,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 3237025,
+      "dur": 13823,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 3250848,
+      "dur": 2728,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 3253576,
+      "dur": 4138,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 3257714,
+      "dur": 6962,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 3258758,
+      "dur": 4873,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 3250848,
+      "dur": 13828,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 3264676,
+      "dur": 2906,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 3267582,
+      "dur": 3721,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 3271303,
+      "dur": 7009,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 3272354,
+      "dur": 4906,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 3264676,
+      "dur": 13636,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 3278312,
+      "dur": 3107,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 3281419,
+      "dur": 3862,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 3285281,
+      "dur": 6712,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 3286288,
+      "dur": 4698,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 3278312,
+      "dur": 13681,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 3291993,
+      "dur": 2743,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 3294736,
+      "dur": 3821,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 3298557,
+      "dur": 7138,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 3299628,
+      "dur": 4996,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 3291993,
+      "dur": 13702,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 3305695,
+      "dur": 2849,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 3308544,
+      "dur": 3707,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 3312251,
+      "dur": 6702,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 3313256,
+      "dur": 4691,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 3305695,
+      "dur": 13258,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 3318953,
+      "dur": 3169,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 3322122,
+      "dur": 3987,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 3326109,
+      "dur": 6870,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 3327139,
+      "dur": 4809,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 3318953,
+      "dur": 14026,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 3332979,
+      "dur": 3259,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 3336238,
+      "dur": 3754,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 3339992,
+      "dur": 6607,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 3340983,
+      "dur": 4624,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 3332979,
+      "dur": 13620,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 3346599,
+      "dur": 3199,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 3349798,
+      "dur": 3751,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 3353549,
+      "dur": 7077,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 3354611,
+      "dur": 4953,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 3346599,
+      "dur": 14027,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 3360626,
+      "dur": 3115,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 3363741,
+      "dur": 4253,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 3367994,
+      "dur": 7196,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 3369073,
+      "dur": 5037,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 3360626,
+      "dur": 14564,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 3375190,
+      "dur": 3133,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 3378323,
+      "dur": 4133,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 3382456,
+      "dur": 7007,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 3383507,
+      "dur": 4904,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 3375190,
+      "dur": 14273,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 3389463,
+      "dur": 3030,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 3392493,
+      "dur": 4110,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 3396603,
+      "dur": 7010,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 3397654,
+      "dur": 4907,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 3389463,
+      "dur": 14150,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 3403613,
+      "dur": 2906,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 3406519,
+      "dur": 4155,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 3410674,
+      "dur": 7124,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 3411743,
+      "dur": 4986,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 3403613,
+      "dur": 14185,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 3417798,
+      "dur": 2924,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 3420722,
+      "dur": 3609,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 3424331,
+      "dur": 6848,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 3425358,
+      "dur": 4793,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 3417798,
+      "dur": 13381,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 3431179,
+      "dur": 3025,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 3434204,
+      "dur": 3929,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 3438133,
+      "dur": 6536,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 3439113,
+      "dur": 4575,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 3431179,
+      "dur": 13490,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 3444669,
+      "dur": 3237,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 3447906,
+      "dur": 3751,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 3451657,
+      "dur": 7395,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 3452766,
+      "dur": 5176,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 3444669,
+      "dur": 14383,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 3459052,
+      "dur": 2963,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 3462015,
+      "dur": 4217,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 3466232,
+      "dur": 7302,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 3467327,
+      "dur": 5111,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 3459052,
+      "dur": 14482,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 3473534,
+      "dur": 2859,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 3476393,
+      "dur": 3988,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 3480381,
+      "dur": 7096,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 3481445,
+      "dur": 4967,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 3473534,
+      "dur": 13943,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 3487477,
+      "dur": 3001,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 3490478,
+      "dur": 4335,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 3494813,
+      "dur": 7223,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 3495896,
+      "dur": 5056,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 3487477,
+      "dur": 14559,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 3502036,
+      "dur": 3181,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 3505217,
+      "dur": 3667,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 3508884,
+      "dur": 7319,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 3509982,
+      "dur": 5123,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 3502036,
+      "dur": 14167,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 3516203,
+      "dur": 2786,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 3518989,
+      "dur": 4128,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 3523117,
+      "dur": 7389,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 3524225,
+      "dur": 5172,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 3516203,
+      "dur": 14303,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 3530506,
+      "dur": 2740,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 3533246,
+      "dur": 3667,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 3536913,
+      "dur": 6730,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 3537922,
+      "dur": 4711,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 3530506,
+      "dur": 13137,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 3543643,
+      "dur": 2833,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 3546476,
+      "dur": 3641,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 3550117,
+      "dur": 6807,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 3551138,
+      "dur": 4764,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 3543643,
+      "dur": 13281,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 3556924,
+      "dur": 2715,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 3559639,
+      "dur": 4377,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 3564016,
+      "dur": 7364,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 3565121,
+      "dur": 5154,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 3556924,
+      "dur": 14456,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 3571380,
+      "dur": 3159,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 3574539,
+      "dur": 3938,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 3578477,
+      "dur": 7382,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 3579584,
+      "dur": 5167,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 3571380,
+      "dur": 14479,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 3585859,
+      "dur": 2864,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 3588723,
+      "dur": 3752,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 3592475,
+      "dur": 7389,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 3593583,
+      "dur": 5172,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 3585859,
+      "dur": 14005,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 3599864,
+      "dur": 3171,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 3603035,
+      "dur": 3980,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 3607015,
+      "dur": 7017,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 3608068,
+      "dur": 4911,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 3599864,
+      "dur": 14168,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 3614032,
+      "dur": 3091,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 3617123,
+      "dur": 4142,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 3621265,
+      "dur": 7014,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 3622317,
+      "dur": 4909,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 3614032,
+      "dur": 14247,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 3628279,
+      "dur": 2734,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 3631013,
+      "dur": 4187,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 3635200,
+      "dur": 6592,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 3636189,
+      "dur": 4614,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 3628279,
+      "dur": 13513,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 3641792,
+      "dur": 3230,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 3645022,
+      "dur": 4376,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 3649398,
+      "dur": 7114,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 3650465,
+      "dur": 4979,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 3641792,
+      "dur": 14720,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 3656512,
+      "dur": 2778,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 3659290,
+      "dur": 4364,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 3663654,
+      "dur": 6936,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 3664694,
+      "dur": 4855,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 3656512,
+      "dur": 14078,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 3670590,
+      "dur": 2911,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 3673501,
+      "dur": 3896,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 3677397,
+      "dur": 7048,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 3678454,
+      "dur": 4933,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 3670590,
+      "dur": 13855,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 3684445,
+      "dur": 3127,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 3687572,
+      "dur": 4093,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 3691665,
+      "dur": 7365,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 3692770,
+      "dur": 5155,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 3684445,
+      "dur": 14585,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 3699030,
+      "dur": 3097,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 3702127,
+      "dur": 4222,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 3706349,
+      "dur": 7100,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 3707414,
+      "dur": 4970,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 3699030,
+      "dur": 14419,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 3713449,
+      "dur": 2939,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 3716388,
+      "dur": 3620,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 3720008,
+      "dur": 7172,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 3721084,
+      "dur": 5020,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 3713449,
+      "dur": 13731,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 3727180,
+      "dur": 2700,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 3729880,
+      "dur": 4358,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 3734238,
+      "dur": 6686,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 3735241,
+      "dur": 4680,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 3727180,
+      "dur": 13744,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 3740924,
+      "dur": 3009,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 3743933,
+      "dur": 4119,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 3748052,
+      "dur": 7083,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 3749114,
+      "dur": 4958,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 3740924,
+      "dur": 14211,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 3755135,
+      "dur": 2960,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 3758095,
+      "dur": 3940,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 3762035,
+      "dur": 6567,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 3763020,
+      "dur": 4596,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 3755135,
+      "dur": 13467,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 3768602,
+      "dur": 3205,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 3771807,
+      "dur": 3868,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 3775675,
+      "dur": 7465,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 3776795,
+      "dur": 5225,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 3768602,
+      "dur": 14538,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 3783140,
+      "dur": 3010,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 3786150,
+      "dur": 4391,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 3790541,
+      "dur": 6917,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 3791579,
+      "dur": 4841,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 3783140,
+      "dur": 14318,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 3797458,
+      "dur": 3093,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 3800551,
+      "dur": 3992,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 3804543,
+      "dur": 6563,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 3805527,
+      "dur": 4594,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 3797458,
+      "dur": 13648,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Update",
+      "ph": "X",
+      "ts": 3811106,
+      "dur": 2867,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Physics",
+      "ph": "X",
+      "ts": 3813973,
+      "dur": 4256,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "Render",
+      "ph": "X",
+      "ts": 3818229,
+      "dur": 7457,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "DrawCalls",
+      "ph": "X",
+      "ts": 3819348,
+      "dur": 5219,
+      "pid": 1,
+      "tid": 1
+    },
+    {
+      "name": "frame",
+      "ph": "X",
+      "ts": 3811106,
+      "dur": 14580,
+      "pid": 1,
+      "tid": 1
+    }
+  ],
+  "displayTimeUnit": "ms"
+}

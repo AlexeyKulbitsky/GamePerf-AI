@@ -1,0 +1,19 @@
+{
+  "id": "alloc-churn",
+  "title": "Heap allocation churn",
+  "engines": ["any", "unreal"],
+  "symptoms": [
+    "heap.alloc or malloc cost rises across the hitch frame",
+    "frequent small allocations and frees churn the heap",
+    "allocator contention or fragmentation under load",
+    "many short-lived allocations on the hot path"
+  ],
+  "mechanism": "Code allocates and frees heap memory at high frequency, so allocator bookkeeping (and possibly fragmentation or lock contention) accumulates into a frame-time spike.",
+  "diagnosis_hints": "Check allocation count and bytes in the hitch frame; look for per-frame containers or strings being rebuilt.",
+  "typical_fixes": [
+    "reserve and reuse buffers instead of reallocating each frame",
+    "use arena / frame allocators for transient data",
+    "avoid hidden allocations (string formatting, dynamic containers) in hot loops"
+  ],
+  "sources": ["Unreal Engine documentation — Memory management", "Game Engine Architecture (Gregory)"]
+}

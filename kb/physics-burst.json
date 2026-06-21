@@ -1,0 +1,19 @@
+{
+  "id": "physics-burst",
+  "title": "Physics simulation burst",
+  "engines": ["godot", "unreal", "any"],
+  "symptoms": [
+    "physics2dserver flush_queries or a physics step dominates the frame",
+    "flush queries spikes when many bodies are active",
+    "physics broadphase or simulation cost jumps in one frame",
+    "hitch when many rigid bodies wake or collide at once"
+  ],
+  "mechanism": "The physics engine resolves an unusually large batch of active bodies, contacts or queries in a single step, so the physics flush overruns the frame budget.",
+  "diagnosis_hints": "Compare the active rigid-body and contact count in the hitch frame against neighbours; check for a burst of newly woken or spawned bodies.",
+  "typical_fixes": [
+    "cap or stagger the number of bodies activated per frame",
+    "use simpler collision shapes and sleeping thresholds",
+    "move heavy queries off the hot path or amortise them across frames"
+  ],
+  "sources": ["Godot Engine documentation — Physics introduction", "Unreal Engine documentation — Physics"]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "gc-spike",
+  "title": "Garbage collection spike",
+  "engines": ["unity", "godot", "any"],
+  "symptoms": [
+    "a GC.Collect span dominates the hitch frame",
+    "gc collect / garbage collection runs mid-frame",
+    "managed heap stop-the-world pause",
+    "periodic hitches correlated with allocation volume"
+  ],
+  "mechanism": "A managed-memory garbage collector runs a collection on the main thread, pausing all gameplay code (stop-the-world) until it finishes. The pause lands inside a frame and blows the frame budget.",
+  "diagnosis_hints": "Check whether the spike span is the runtime's collector (GC.Collect or equivalent) and whether hitches recur as allocations accumulate. Correlate with managed allocations per frame.",
+  "typical_fixes": [
+    "pool and reuse objects to cut per-frame managed allocations",
+    "avoid allocating in hot loops (boxing, closures, LINQ, temporary arrays)",
+    "schedule incremental or generational GC where the runtime supports it"
+  ],
+  "sources": ["Unity Manual — Understanding the managed heap", "Godot Engine documentation — Optimization"]
+}

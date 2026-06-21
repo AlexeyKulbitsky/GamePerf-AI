@@ -1,0 +1,19 @@
+{
+  "id": "shader-compile",
+  "title": "Runtime shader / PSO compilation",
+  "engines": ["unreal", "godot", "any"],
+  "symptoms": [
+    "shadercompiler.compile runs during gameplay",
+    "first-time shader or pipeline state object compile stalls the frame",
+    "hitch the first time a new material or effect is shown",
+    "compile spike not seen on subsequent frames"
+  ],
+  "mechanism": "A shader or graphics pipeline state object is compiled on demand the first time it is needed, and the compile runs on the frame thread, causing a one-off hitch.",
+  "diagnosis_hints": "Check whether the spike is a shader/PSO compile and whether it happens only on first appearance of a material or effect.",
+  "typical_fixes": [
+    "precompile shaders / PSOs at load or during a warm-up pass",
+    "use a PSO cache and prime it with representative draws",
+    "render new effects once off-screen during loading"
+  ],
+  "sources": ["Unreal Engine documentation — PSO Caching", "Godot Engine documentation — Shader compilation"]
+}
