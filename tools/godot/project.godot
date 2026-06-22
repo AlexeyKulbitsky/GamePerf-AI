@@ -1,0 +1,10 @@
+; Minimal Godot project: a headless capture harness that exercises the
+; ChromeTracer and writes a real engine trace. Not a game — see README.md.
+
+config_version=5
+
+[application]
+
+config/name="GamePerf Capture Harness"
+run/main_scene="res://capture.tscn"
+config/features=PackedStringArray("4.5")
