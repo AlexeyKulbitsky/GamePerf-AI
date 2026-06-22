@@ -1,0 +1,3805 @@
+{
+  "displayTimeUnit": "ms",
+  "traceEvents": [
+    {
+      "dur": 747,
+      "name": "Bricks.instantiate",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 117151
+    },
+    {
+      "dur": 17,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 117978
+    },
+    {
+      "dur": 22,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 118565
+    },
+    {
+      "dur": 16,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 132345
+    },
+    {
+      "dur": 15,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 146145
+    },
+    {
+      "dur": 19,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 166848
+    },
+    {
+      "dur": 20,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 180645
+    },
+    {
+      "dur": 45,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 194456
+    },
+    {
+      "dur": 17,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 215161
+    },
+    {
+      "dur": 36,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 215145
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 228960
+    },
+    {
+      "dur": 22,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 228947
+    },
+    {
+      "dur": 5,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 249665
+    },
+    {
+      "dur": 26,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 249648
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 263458
+    },
+    {
+      "dur": 20,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 263445
+    },
+    {
+      "dur": 5,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 277263
+    },
+    {
+      "dur": 25,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 277247
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 297959
+    },
+    {
+      "dur": 20,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 297946
+    },
+    {
+      "dur": 6,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 311769
+    },
+    {
+      "dur": 32,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 311748
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 332464
+    },
+    {
+      "dur": 26,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 332447
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 346260
+    },
+    {
+      "dur": 22,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 346246
+    },
+    {
+      "dur": 5,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 360061
+    },
+    {
+      "dur": 26,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 360046
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 380762
+    },
+    {
+      "dur": 24,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 380746
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 394560
+    },
+    {
+      "dur": 23,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 394545
+    },
+    {
+      "dur": 7,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 415277
+    },
+    {
+      "dur": 38,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 415252
+    },
+    {
+      "dur": 5,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 429067
+    },
+    {
+      "dur": 28,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 429048
+    },
+    {
+      "dur": 6,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 449770
+    },
+    {
+      "dur": 31,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 449749
+    },
+    {
+      "dur": 5,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 463565
+    },
+    {
+      "dur": 27,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 463547
+    },
+    {
+      "dur": 5,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 484266
+    },
+    {
+      "dur": 28,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 484247
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 498064
+    },
+    {
+      "dur": 26,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 498047
+    },
+    {
+      "dur": 5,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 518767
+    },
+    {
+      "dur": 28,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 518748
+    },
+    {
+      "dur": 5,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 532563
+    },
+    {
+      "dur": 25,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 532547
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 553261
+    },
+    {
+      "dur": 24,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 553246
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 567058
+    },
+    {
+      "dur": 20,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 567045
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 587758
+    },
+    {
+      "dur": 20,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 587745
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 601559
+    },
+    {
+      "dur": 21,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 601545
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 622257
+    },
+    {
+      "dur": 20,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 622244
+    },
+    {
+      "dur": 7,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 636084
+    },
+    {
+      "dur": 42,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 636055
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 656760
+    },
+    {
+      "dur": 22,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 656746
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 670558
+    },
+    {
+      "dur": 20,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 670545
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 691258
+    },
+    {
+      "dur": 20,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 691245
+    },
+    {
+      "dur": 3,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 705061
+    },
+    {
+      "dur": 23,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 705045
+    },
+    {
+      "dur": 3,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 718859
+    },
+    {
+      "dur": 21,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 718845
+    },
+    {
+      "dur": 5,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 739578
+    },
+    {
+      "dur": 24,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 739563
+    },
+    {
+      "dur": 6,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 753369
+    },
+    {
+      "dur": 33,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 753348
+    },
+    {
+      "dur": 3,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 774059
+    },
+    {
+      "dur": 21,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 774045
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 787858
+    },
+    {
+      "dur": 20,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 787845
+    },
+    {
+      "dur": 3,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 808570
+    },
+    {
+      "dur": 28,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 808548
+    },
+    {
+      "dur": 6,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 822367
+    },
+    {
+      "dur": 29,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 822348
+    },
+    {
+      "dur": 3,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 836158
+    },
+    {
+      "dur": 20,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 836145
+    },
+    {
+      "dur": 6,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 856866
+    },
+    {
+      "dur": 29,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 856848
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 870659
+    },
+    {
+      "dur": 22,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 870645
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 891358
+    },
+    {
+      "dur": 20,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 891345
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 905157
+    },
+    {
+      "dur": 19,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 905145
+    },
+    {
+      "dur": 3,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 918958
+    },
+    {
+      "dur": 20,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 918945
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 939658
+    },
+    {
+      "dur": 20,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 939645
+    },
+    {
+      "dur": 5,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 953464
+    },
+    {
+      "dur": 28,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 953446
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 974160
+    },
+    {
+      "dur": 26,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 974146
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 987959
+    },
+    {
+      "dur": 22,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 987945
+    },
+    {
+      "dur": 6,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1001766
+    },
+    {
+      "dur": 28,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1001748
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1022458
+    },
+    {
+      "dur": 20,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1022445
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1036259
+    },
+    {
+      "dur": 21,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1036245
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1056960
+    },
+    {
+      "dur": 22,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1056945
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1070761
+    },
+    {
+      "dur": 23,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1070746
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1091459
+    },
+    {
+      "dur": 21,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1091445
+    },
+    {
+      "dur": 5,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1105266
+    },
+    {
+      "dur": 29,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1105247
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1119055
+    },
+    {
+      "dur": 19,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1119043
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1139759
+    },
+    {
+      "dur": 21,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1139745
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1153558
+    },
+    {
+      "dur": 21,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1153545
+    },
+    {
+      "dur": 6,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1174269
+    },
+    {
+      "dur": 32,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1174249
+    },
+    {
+      "dur": 5,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1188062
+    },
+    {
+      "dur": 23,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1188047
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1201860
+    },
+    {
+      "dur": 22,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1201845
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1222558
+    },
+    {
+      "dur": 21,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1222545
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1236358
+    },
+    {
+      "dur": 20,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1236345
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1257058
+    },
+    {
+      "dur": 21,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1257045
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1270858
+    },
+    {
+      "dur": 21,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1270845
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1291560
+    },
+    {
+      "dur": 22,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1291546
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1305358
+    },
+    {
+      "dur": 20,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1305345
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1319159
+    },
+    {
+      "dur": 21,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1319145
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1339858
+    },
+    {
+      "dur": 21,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1339845
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1353658
+    },
+    {
+      "dur": 20,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1353645
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1374358
+    },
+    {
+      "dur": 21,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1374345
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1388157
+    },
+    {
+      "dur": 20,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1388144
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1401960
+    },
+    {
+      "dur": 21,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1401946
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1422658
+    },
+    {
+      "dur": 21,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1422645
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1436458
+    },
+    {
+      "dur": 21,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1436444
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1457158
+    },
+    {
+      "dur": 21,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1457145
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1470958
+    },
+    {
+      "dur": 23,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1470945
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1491658
+    },
+    {
+      "dur": 20,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1491645
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1505458
+    },
+    {
+      "dur": 20,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1505445
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1519258
+    },
+    {
+      "dur": 20,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1519245
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1539958
+    },
+    {
+      "dur": 21,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1539945
+    },
+    {
+      "dur": 6,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1553767
+    },
+    {
+      "dur": 29,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1553748
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1574458
+    },
+    {
+      "dur": 23,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1574445
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1588258
+    },
+    {
+      "dur": 20,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1588245
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1602059
+    },
+    {
+      "dur": 21,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1602045
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1622761
+    },
+    {
+      "dur": 23,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1622746
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1636558
+    },
+    {
+      "dur": 21,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1636545
+    },
+    {
+      "dur": 5,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1657262
+    },
+    {
+      "dur": 24,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1657246
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1671058
+    },
+    {
+      "dur": 21,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1671044
+    },
+    {
+      "dur": 14,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1691761
+    },
+    {
+      "dur": 32,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1691747
+    },
+    {
+      "dur": 52,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1705559
+    },
+    {
+      "dur": 69,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1705546
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1719356
+    },
+    {
+      "dur": 20,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1719343
+    },
+    {
+      "dur": 6,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1740071
+    },
+    {
+      "dur": 29,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1740052
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1753858
+    },
+    {
+      "dur": 20,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1753845
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1774558
+    },
+    {
+      "dur": 21,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1774545
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1788358
+    },
+    {
+      "dur": 21,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1788345
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1802158
+    },
+    {
+      "dur": 20,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1802145
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1822858
+    },
+    {
+      "dur": 21,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1822845
+    },
+    {
+      "dur": 5,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1836661
+    },
+    {
+      "dur": 23,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1836646
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1857358
+    },
+    {
+      "dur": 20,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1857345
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1871159
+    },
+    {
+      "dur": 22,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1871145
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1891858
+    },
+    {
+      "dur": 21,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1891845
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1905658
+    },
+    {
+      "dur": 20,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1905645
+    },
+    {
+      "dur": 6,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1919459
+    },
+    {
+      "dur": 23,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1919445
+    },
+    {
+      "dur": 5,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1940159
+    },
+    {
+      "dur": 21,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1940146
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1953958
+    },
+    {
+      "dur": 21,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1953945
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1974658
+    },
+    {
+      "dur": 21,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1974645
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1988458
+    },
+    {
+      "dur": 21,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 1988445
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2002258
+    },
+    {
+      "dur": 20,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2002245
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2022957
+    },
+    {
+      "dur": 20,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2022944
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2036759
+    },
+    {
+      "dur": 21,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2036745
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2057461
+    },
+    {
+      "dur": 23,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2057446
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2071260
+    },
+    {
+      "dur": 22,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2071245
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2085058
+    },
+    {
+      "dur": 20,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2085045
+    },
+    {
+      "dur": 8,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2105776
+    },
+    {
+      "dur": 39,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2105751
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2119564
+    },
+    {
+      "dur": 26,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2119546
+    },
+    {
+      "dur": 6,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2140271
+    },
+    {
+      "dur": 33,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2140250
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2154058
+    },
+    {
+      "dur": 20,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2154045
+    },
+    {
+      "dur": 7,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2174777
+    },
+    {
+      "dur": 38,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2174751
+    },
+    {
+      "dur": 5,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2188567
+    },
+    {
+      "dur": 28,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2188549
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2202362
+    },
+    {
+      "dur": 25,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2202346
+    },
+    {
+      "dur": 5,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2223065
+    },
+    {
+      "dur": 27,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2223048
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2236861
+    },
+    {
+      "dur": 23,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2236846
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2257560
+    },
+    {
+      "dur": 23,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2257545
+    },
+    {
+      "dur": 9,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2271383
+    },
+    {
+      "dur": 45,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2271353
+    },
+    {
+      "dur": 6,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2285171
+    },
+    {
+      "dur": 33,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2285149
+    },
+    {
+      "dur": 6,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2305871
+    },
+    {
+      "dur": 33,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2305849
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2319658
+    },
+    {
+      "dur": 21,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2319645
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2340358
+    },
+    {
+      "dur": 21,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2340345
+    },
+    {
+      "dur": 5,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2354164
+    },
+    {
+      "dur": 26,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2354147
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2374861
+    },
+    {
+      "dur": 23,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2374846
+    },
+    {
+      "dur": 8,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2388679
+    },
+    {
+      "dur": 40,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2388653
+    },
+    {
+      "dur": 5,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2402459
+    },
+    {
+      "dur": 21,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2402446
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2423160
+    },
+    {
+      "dur": 22,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2423146
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2436963
+    },
+    {
+      "dur": 24,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2436947
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2457660
+    },
+    {
+      "dur": 22,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2457646
+    },
+    {
+      "dur": 5,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2471463
+    },
+    {
+      "dur": 27,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2471448
+    },
+    {
+      "dur": 5,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2485265
+    },
+    {
+      "dur": 29,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2485246
+    },
+    {
+      "dur": 8,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2505980
+    },
+    {
+      "dur": 45,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2505949
+    },
+    {
+      "dur": 6,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2519767
+    },
+    {
+      "dur": 30,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2519748
+    },
+    {
+      "dur": 5,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2540463
+    },
+    {
+      "dur": 25,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2540447
+    },
+    {
+      "dur": 6,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2554263
+    },
+    {
+      "dur": 26,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2554247
+    },
+    {
+      "dur": 5,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2574962
+    },
+    {
+      "dur": 26,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2574946
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2588759
+    },
+    {
+      "dur": 21,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2588745
+    },
+    {
+      "dur": 30657,
+      "name": "Bricks.instantiate",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2602563
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2633230
+    },
+    {
+      "dur": 30690,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2602546
+    },
+    {
+      "dur": 7,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2633656
+    },
+    {
+      "dur": 36,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2633632
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2640546
+    },
+    {
+      "dur": 22,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2640531
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2654343
+    },
+    {
+      "dur": 20,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2654330
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2668143
+    },
+    {
+      "dur": 19,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2668130
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2681943
+    },
+    {
+      "dur": 20,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2681930
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2695742
+    },
+    {
+      "dur": 19,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2695730
+    },
+    {
+      "dur": 5,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2716448
+    },
+    {
+      "dur": 25,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2716432
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2730245
+    },
+    {
+      "dur": 21,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2730231
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2744044
+    },
+    {
+      "dur": 21,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2744031
+    },
+    {
+      "dur": 5,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2764744
+    },
+    {
+      "dur": 22,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2764730
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2778546
+    },
+    {
+      "dur": 22,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2778531
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2799244
+    },
+    {
+      "dur": 21,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2799230
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2813043
+    },
+    {
+      "dur": 21,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2813030
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2826846
+    },
+    {
+      "dur": 25,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2826829
+    },
+    {
+      "dur": 3,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2847545
+    },
+    {
+      "dur": 22,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2847530
+    },
+    {
+      "dur": 6,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2861360
+    },
+    {
+      "dur": 34,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2861336
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2882043
+    },
+    {
+      "dur": 20,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2882030
+    },
+    {
+      "dur": 3,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2895843
+    },
+    {
+      "dur": 20,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2895830
+    },
+    {
+      "dur": 3,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2916543
+    },
+    {
+      "dur": 20,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2916530
+    },
+    {
+      "dur": 5,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2930348
+    },
+    {
+      "dur": 27,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2930331
+    },
+    {
+      "dur": 5,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2951051
+    },
+    {
+      "dur": 29,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2951032
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2964847
+    },
+    {
+      "dur": 25,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2964830
+    },
+    {
+      "dur": 5,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2985545
+    },
+    {
+      "dur": 28,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2985531
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2999344
+    },
+    {
+      "dur": 21,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 2999330
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3020044
+    },
+    {
+      "dur": 21,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3020030
+    },
+    {
+      "dur": 6,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3033845
+    },
+    {
+      "dur": 25,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3033830
+    },
+    {
+      "dur": 7,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3054548
+    },
+    {
+      "dur": 27,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3054532
+    },
+    {
+      "dur": 6,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3068345
+    },
+    {
+      "dur": 23,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3068331
+    },
+    {
+      "dur": 5,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3089046
+    },
+    {
+      "dur": 24,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3089031
+    },
+    {
+      "dur": 8,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3102856
+    },
+    {
+      "dur": 35,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3102835
+    },
+    {
+      "dur": 7,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3123551
+    },
+    {
+      "dur": 30,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3123532
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3137342
+    },
+    {
+      "dur": 21,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3137328
+    },
+    {
+      "dur": 6,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3158048
+    },
+    {
+      "dur": 28,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3158031
+    },
+    {
+      "dur": 5,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3171842
+    },
+    {
+      "dur": 21,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3171829
+    },
+    {
+      "dur": 5,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3185642
+    },
+    {
+      "dur": 21,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3185629
+    },
+    {
+      "dur": 22,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3206344
+    },
+    {
+      "dur": 39,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3206330
+    },
+    {
+      "dur": 6,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3220143
+    },
+    {
+      "dur": 23,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3220129
+    },
+    {
+      "dur": 5,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3240843
+    },
+    {
+      "dur": 21,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3240830
+    },
+    {
+      "dur": 5,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3254644
+    },
+    {
+      "dur": 23,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3254630
+    },
+    {
+      "dur": 11,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3268442
+    },
+    {
+      "dur": 27,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3268429
+    },
+    {
+      "dur": 6,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3289146
+    },
+    {
+      "dur": 27,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3289131
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3302940
+    },
+    {
+      "dur": 18,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3302929
+    },
+    {
+      "dur": 5,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3323642
+    },
+    {
+      "dur": 21,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3323629
+    },
+    {
+      "dur": 5,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3337443
+    },
+    {
+      "dur": 21,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3337430
+    },
+    {
+      "dur": 5,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3358143
+    },
+    {
+      "dur": 28,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3358130
+    },
+    {
+      "dur": 5,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3371946
+    },
+    {
+      "dur": 25,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3371930
+    },
+    {
+      "dur": 5,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3385742
+    },
+    {
+      "dur": 21,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3385729
+    },
+    {
+      "dur": 7,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3406452
+    },
+    {
+      "dur": 30,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3406433
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3420243
+    },
+    {
+      "dur": 21,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3420229
+    },
+    {
+      "dur": 3,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3440943
+    },
+    {
+      "dur": 20,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3440929
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3454743
+    },
+    {
+      "dur": 20,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3454730
+    },
+    {
+      "dur": 3,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3468543
+    },
+    {
+      "dur": 19,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3468530
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3489247
+    },
+    {
+      "dur": 24,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3489231
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3503043
+    },
+    {
+      "dur": 20,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3503030
+    },
+    {
+      "dur": 6,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3523753
+    },
+    {
+      "dur": 31,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3523734
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3537543
+    },
+    {
+      "dur": 20,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3537530
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3558243
+    },
+    {
+      "dur": 21,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3558230
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3572043
+    },
+    {
+      "dur": 21,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3572030
+    },
+    {
+      "dur": 6,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3585845
+    },
+    {
+      "dur": 24,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3585831
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3606544
+    },
+    {
+      "dur": 21,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3606530
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3620343
+    },
+    {
+      "dur": 20,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3620330
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3641043
+    },
+    {
+      "dur": 21,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3641030
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3654842
+    },
+    {
+      "dur": 20,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3654829
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3668643
+    },
+    {
+      "dur": 20,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3668630
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3689343
+    },
+    {
+      "dur": 21,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3689330
+    },
+    {
+      "dur": 5,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3703145
+    },
+    {
+      "dur": 22,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3703131
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3723843
+    },
+    {
+      "dur": 20,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3723830
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3737643
+    },
+    {
+      "dur": 20,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3737630
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3758343
+    },
+    {
+      "dur": 20,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3758330
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3772143
+    },
+    {
+      "dur": 21,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3772130
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3785943
+    },
+    {
+      "dur": 21,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3785930
+    },
+    {
+      "dur": 5,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3806645
+    },
+    {
+      "dur": 22,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3806631
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3820443
+    },
+    {
+      "dur": 21,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3820430
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3841144
+    },
+    {
+      "dur": 22,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3841130
+    },
+    {
+      "dur": 3,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3854937
+    },
+    {
+      "dur": 16,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3854927
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3868743
+    },
+    {
+      "dur": 21,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3868730
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3889443
+    },
+    {
+      "dur": 21,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3889430
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3903243
+    },
+    {
+      "dur": 21,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3903230
+    },
+    {
+      "dur": 5,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3923947
+    },
+    {
+      "dur": 25,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3923931
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3937743
+    },
+    {
+      "dur": 20,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3937730
+    },
+    {
+      "dur": 5,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3958450
+    },
+    {
+      "dur": 25,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3958434
+    },
+    {
+      "dur": 3,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3972240
+    },
+    {
+      "dur": 18,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3972228
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3986044
+    },
+    {
+      "dur": 21,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 3986030
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 4006743
+    },
+    {
+      "dur": 20,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 4006730
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 4020544
+    },
+    {
+      "dur": 21,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 4020530
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 4041242
+    },
+    {
+      "dur": 20,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 4041229
+    },
+    {
+      "dur": 3,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 4055042
+    },
+    {
+      "dur": 18,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 4055030
+    },
+    {
+      "dur": 4,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 4068844
+    },
+    {
+      "dur": 21,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 4068831
+    },
+    {
+      "dur": 5,
+      "name": "Physics",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 4089552
+    },
+    {
+      "dur": 29,
+      "name": "frame",
+      "ph": "X",
+      "pid": 1,
+      "tid": 1,
+      "ts": 4089533
+    }
+  ]
+}

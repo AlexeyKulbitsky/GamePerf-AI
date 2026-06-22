@@ -15,6 +15,12 @@ The first invocation just imports the project; run it once more to actually
 capture. Output is Chrome Tracing JSON that GamePerf-AI ingests directly — the
 committed sample is `fixtures/real/godot-capture.json`.
 
+## Worked example: a real game
+
+`examples/arkanoid/` is a complete Godot game wired up exactly this way — see
+its README for the one-command recapture. The steps below are the general
+recipe it follows.
+
 ## Drop into a real game (e.g. Arkanoid)
 
 1. Copy `chrome_tracer.gd` into the game project.
