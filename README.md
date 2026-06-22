@@ -18,41 +18,56 @@ You'll need Python 3.10+. From the repo root:
     pip install -e .[dev]
 
 That installs the package in editable mode plus pytest. On macOS/Linux the
-activate line is `source .venv/bin/activate`.
+activate line is `source .venv/bin/activate`. The package itself is
+stdlib-only — nothing to compile, no heavy deps.
 
-The `reason` stage talks to a local Ollama running `qwen2.5:7b-instruct`, but
-you only need that once the whole pipeline runs end to end — not for anything
-below.
+The `reason` stage talks to a local [Ollama](https://ollama.com) running
+`qwen2.5:7b-instruct`. Once Ollama's installed:
+
+    ollama pull qwen2.5:7b-instruct
+
+It's a ~4.7 GB Q4 model that runs comfortably on an 8 GB GPU. You only need it
+for the full run — the `--no-llm` path below skips it entirely.
 
 ## Running the tests
 
     pytest
 
-Everything's tiny and offline, so it's quick. If that's green, the stages
-that are wired up so far are behaving.
+Everything's tiny and offline (the tests never call the model), so it's quick.
+Green means the wired-up stages are behaving.
 
-## Kicking the tyres
+## Trying it out
 
-There's no one-command CLI yet (coming once all five stages are in). For now
-you can make a sample trace and poke at it stage by stage.
-
-Generate a synthetic trace with one planted hitch:
+Make a synthetic trace with one planted hitch:
 
     python tools/make_fixture.py --scenario gc-spike --out fixtures/synthetic/gc-spike.json
 
 It drops a `*.truth.json` next to the trace recording where the hitch is and
-what caused it — handy for checking the pipeline got it right. Other
-scenarios you can pass to `--scenario`: physics-burst, sync-asset-load,
-shader-compile, n2-collision, spawn-burst, alloc-churn, serialization-stall,
-event-storm, scene-tree-traversal.
+what caused it — handy for checking the pipeline got it right. Other scenarios
+for `--scenario`: physics-burst, sync-asset-load, shader-compile, n2-collision,
+spawn-burst, alloc-churn, serialization-stall, event-storm, scene-tree-traversal.
 
-Then run it through what's built so far (ingest → detect → analyze):
+Now run the whole thing on it:
 
-    python -c "import json; from pipeline.ingest import load_trace; from pipeline.detect import find_hitches; from pipeline.analyze import build_evidence; t = load_trace('fixtures/synthetic/gc-spike.json'); print(json.dumps(build_evidence(t, find_hitches(t)[0]), indent=2))"
+    python -m pipeline.run fixtures/synthetic/gc-spike.json
 
-You should see a hitch window around frame 120 with `GC.Collect` sitting at
-the top of the offender list — that's the planted spike being found and
-isolated from the normal per-frame work.
+You get back a markdown report: the hitch (frame 120, ~40 ms against a 16.7 ms
+budget), a couple of ranked hypotheses from the model — each one citing the
+evidence spans it leaned on — and the offender table underneath. There's a
+saved example at `examples/gc-spike-report.md` if you just want to see the shape.
+Add `--out report.md` to write to a file instead of stdout.
+
+No Ollama handy? Skip the model and dump the evidence + KB matches instead:
+
+    python -m pipeline.run fixtures/synthetic/gc-spike.json --no-llm
+
+## What's actually doing the work
+
+Since this is a prototype, worth being straight about it: detection is plain
+stats (median + MAD) standing in for a time-series model, and retrieval is BM25
+over a 10-entry knowledge base standing in for embeddings. The one real model in
+the loop right now is the LLM in the reason stage — swapping the placeholders for
+proper models is the rest of the project.
 
 The traces are plain Chrome Tracing JSON, so you can also drag them into
 `chrome://tracing` or the Perfetto UI and eyeball the frames yourself.
