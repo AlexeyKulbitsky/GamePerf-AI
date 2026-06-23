@@ -13,22 +13,30 @@ def _load_eval():
 gp_eval = _load_eval()
 
 
-def test_discovers_synthetic_and_real_labelled_cases():
-    names = {c["name"] for c in gp_eval.discover_cases()}
+def test_discovers_synthetic_real_and_lexgap_cases():
+    cases = gp_eval.discover_cases()
+    names = {c["name"] for c in cases}
     assert {"gc-spike", "physics-burst", "sync-asset-load",
             "n2-collision", "spawn-burst"} <= names
-    assert "arkanoid-capture" in names  # the real instrumented-game trace
+    assert "arkanoid-capture" in names                       # real instrumented game
+    assert {"lexgap-spawn", "lexgap-gc", "lexgap-shader", "lexgap-asset"} <= names
+    assert any(c["kind"] == "lexical-gap" for c in cases)
 
 
-def test_detection_and_retrieval_are_perfect_offline():
-    rows = gp_eval.run_eval(use_llm=False)
+def test_detection_perfect_and_bm25_fails_only_on_lexical_gap_offline():
+    rows = gp_eval.run_eval(use_llm=False, use_embed=False)
     assert rows
-    assert all(r["detected"] for r in rows)          # every labelled hitch is found
-    assert all(r["retrieval_top1"] for r in rows)    # and mapped to the right pattern
-    assert all(r["llm_top1"] is None for r in rows)  # llm columns stay unset offline
+    assert all(r["detected"] for r in rows)  # every labelled hitch is found
+    clean = [r for r in rows if r["kind"] != "lexical-gap"]
+    lexgap = [r for r in rows if r["kind"] == "lexical-gap"]
+    assert clean and lexgap
+    assert all(r["bm25_top1"] for r in clean)           # keyword retrieval nails clean cases
+    assert all(r["bm25_top1"] is False for r in lexgap)  # but cannot bridge the lexical gap
+    assert all(r["embed_top1"] is None for r in rows)    # embed gated off here
 
 
 def test_markdown_table_renders():
-    md = gp_eval.to_markdown(gp_eval.run_eval(use_llm=False))
+    md = gp_eval.to_markdown(gp_eval.run_eval(use_llm=False, use_embed=False))
     assert "# Evaluation results" in md
     assert "detection recall: 100%" in md
+    assert "bm25@1" in md and "embed@1" in md

@@ -14,7 +14,14 @@ from pipeline.analyze import build_evidence
 from pipeline.retrieve import retrieve
 
 
-def run(trace_path, k=3.0, budget_us=16667, kb_dir="kb", use_llm=True):
+def _retrieve(bundle, kb_dir, retriever):
+    if retriever == "embed":
+        from pipeline.retrieve_embed import retrieve_embed
+        return retrieve_embed(bundle, kb_dir=kb_dir)
+    return retrieve(bundle, kb_dir=kb_dir)
+
+
+def run(trace_path, k=3.0, budget_us=16667, kb_dir="kb", use_llm=True, retriever="bm25"):
     """Run the pipeline on one trace and return a markdown report string."""
     trace = load_trace(trace_path, budget_us=budget_us)
     windows = find_hitches(trace, k=k)
@@ -23,7 +30,7 @@ def run(trace_path, k=3.0, budget_us=16667, kb_dir="kb", use_llm=True):
 
     window = max(windows, key=lambda w: w.peak_dur_us)  # the worst one
     bundle = build_evidence(trace, window)
-    matches = retrieve(bundle, kb_dir=kb_dir)
+    matches = _retrieve(bundle, kb_dir, retriever)
 
     if not use_llm:
         return _render_no_llm(bundle, matches)
@@ -53,12 +60,14 @@ def main(argv=None):
     ap.add_argument("--k", type=float, default=3.0, help="MAD multiplier for the hitch threshold")
     ap.add_argument("--budget", type=int, default=16667, help="frame budget in microseconds")
     ap.add_argument("--kb", default="kb", help="knowledge-base directory")
+    ap.add_argument("--retriever", choices=["bm25", "embed"], default="bm25",
+                    help="KB retrieval: keyword (bm25) or semantic (embed, needs nomic-embed-text)")
     ap.add_argument("--out", help="write the report here instead of stdout")
     ap.add_argument("--no-llm", action="store_true", help="skip the model; dump evidence + candidates")
     args = ap.parse_args(argv)
 
     report = run(args.trace, k=args.k, budget_us=args.budget, kb_dir=args.kb,
-                 use_llm=not args.no_llm)
+                 use_llm=not args.no_llm, retriever=args.retriever)
     if args.out:
         with open(args.out, "w", encoding="utf-8") as f:
             f.write(report)

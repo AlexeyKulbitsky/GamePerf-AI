@@ -61,13 +61,32 @@ No Ollama handy? Skip the model and dump the evidence + KB matches instead:
 
     python -m pipeline.run fixtures/synthetic/gc-spike.json --no-llm
 
+KB retrieval defaults to keyword matching (BM25). There's also a semantic
+retriever backed by a local embedding model — handy when the offending span is
+named nothing like the KB but means the same thing:
+
+    ollama pull nomic-embed-text
+    python -m pipeline.run fixtures/lexgap/lexgap-spawn.json --retriever embed
+
+(That trace's hitch is a span called `WaveSpawner.deploy`; BM25 shrugs, the
+embedder maps it to `spawn-burst`.)
+
+## Measuring it
+
+`python tools/eval.py` scores every ground-truth-labelled trace and writes
+`examples/eval-results.md`: detection recall, BM25 vs embedding retrieval, and
+LLM top-k. The short version — on clear cases both retrievers nail it; on the
+lexical-gap probes BM25 drops to 0% while embeddings recover most of them (but
+not all). `--no-llm`/`--no-embed` trim the columns that need a model.
+
 ## What's actually doing the work
 
 Since this is a prototype, worth being straight about it: detection is plain
-stats (median + MAD) standing in for a time-series model, and retrieval is BM25
-over a 10-entry knowledge base standing in for embeddings. The one real model in
-the loop right now is the LLM in the reason stage — swapping the placeholders for
-proper models is the rest of the project.
+stats (median + MAD) standing in for a time-series model. Retrieval is BM25 by
+default, with the embedding retriever above as the first real step off the
+placeholder. The other clearly-real model is the LLM in the reason stage —
+swapping the remaining placeholders (a time-series detector, code-aware
+retrieval) for proper models is the rest of the project.
 
 The traces are plain Chrome Tracing JSON, so you can also drag them into
 `chrome://tracing` or the Perfetto UI and eyeball the frames yourself.
