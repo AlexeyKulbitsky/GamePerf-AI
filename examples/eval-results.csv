@@ -1,0 +1,7 @@
+name,kind,cause,detected,retrieval_top1,llm_top1,llm_top3,top_hypothesis
+gc-spike,synthetic,gc-spike,True,True,True,True,gc-spike
+n2-collision,synthetic,n2-collision,True,True,True,True,n2-collision
+physics-burst,synthetic,physics-burst,True,True,True,True,physics-burst
+spawn-burst,synthetic,spawn-burst,True,True,True,True,spawn-burst
+sync-asset-load,synthetic,sync-asset-load,True,True,True,True,sync-asset-load
+arkanoid-capture,real,spawn-burst,True,True,True,True,spawn-burst
